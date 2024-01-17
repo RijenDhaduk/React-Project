@@ -148,6 +148,31 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="container-fluid px-4 pt-4" >
+                <div style={{ backgroundColor: "white" }} className="p-5 rounded-3">
+                    <h2 className="pb-4 border-2 border-bottom">Best of Bikes</h2>
+                    <div className="row">
+                        {
+                            bikes.map((val) => {
+                                return (
+                                    <div className="col-md-3 py-3 d-flex justify-content-center"key={val.id}>
+                                        <Link to={`/product_details/${val.id}`} style={{ textDecoration: "none" }}>
+                                            <div className="card" style={{ width: '18rem' }}>
+                                                <img style={{ height: '200px', objectFit: 'contain' }} src={val.image} className="card-img-top p-4" alt="..." />
+                                                <div className="card-body">
+                                                    <hr/>
+                                                    <h5 className="card-title">{val.name}</h5>
+                                                    <h5 className="card-title">Price :- {val.price}</h5>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+            </div>
 
             <div className="container-fluid px-4 pt-4" >
                 <div style={{ backgroundColor: "white" }} className="p-5 rounded-3">
