@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akademi : School and Education Management Admin Dashboard Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#btnlos").click(function () {
+                $("#btn-loh").toggle();
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        document.getElementById('btn-loh').style.display = "none";
+        const logout = () => {
+            localStorage.removeItem('checkuserlogin');
+            window.location.href = "index.html"
+        }
+        let alluser = JSON.parse(localStorage.getItem('register'));
+        document.getElementById('user').innerHTML = alluser.length;
+    </script>
+    <script src="js/watchmen.js"></script>
+
+</html>

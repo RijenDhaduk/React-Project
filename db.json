@@ -1,0 +1,420 @@
+{
+  "users": [
+    {
+      "name": "KRISH GEDIYA",
+      "email": "krishgediya144@gmali.com",
+      "password": "12345",
+      "role": "admin",
+      "id": "1"
+    },
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "role": "user",
+      "id": "2"
+    },
+    {
+      "name": "BHARGAV BARAD",
+      "email": "bhargav@gmail.com",
+      "password": "1234567890",
+      "role": "user",
+      "id": "3"
+    },
+    {
+      "id": "feae",
+      "name": "r",
+      "email": "r",
+      "password": "t"
+    },
+    {
+      "id": "d020",
+      "name": "t",
+      "email": "t",
+      "password": "t"
+    }
+  ],
+  "category": [
+    {
+      "name": "Electronics",
+      "id": "1"
+    },
+    {
+      "name": "Grocery",
+      "id": "2"
+    },
+    {
+      "name": "Mobiles",
+      "id": "3"
+    },
+    {
+      "name": "Bikes",
+      "id": "4"
+    },
+    {
+      "name": "Fashion",
+      "id": "5"
+    }
+  ],
+  "slider": [
+    {
+      "image": "https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/f7120be1e8d98812.jpg?q=20",
+      "id": "1"
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/32917647fffb9214.jpeg?q=20",
+      "id": "2"
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/6e0a9c81fc82ce85.png?q=20",
+      "id": "3"
+    }
+  ],
+  "products": [
+    {
+      "name": "keyboard",
+      "price": 229,
+      "qty": 1,
+      "description": "3245244",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/keyboard/desktop-keyboard/3/c/1/150-hp-original-imaghydff9ttwzex.jpeg?q=70",
+      "category": "Electronics",
+      "marketstatus": "latest",
+      "status": "instock",
+      "id": "1"
+    },
+    {
+      "name": "printer",
+      "price": 10190,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/k4a7c7k0/printer/y/j/z/canon-e3370-original-imafn2wyyxjjvzd6.jpeg?q=70",
+      "category": "Electronics",
+      "status": "instock",
+      "marketstatus": "best",
+      "description": "",
+      "id": "2"
+    },
+    {
+      "name": "Monitors",
+      "price": 2200,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/t/q/r/g24e-20-full-hd-24-2023-66d7gar1in-lenovo-original-imagq53zdnffu2pz.jpeg?q=70",
+      "category": "Electronics",
+      "status": "instock",
+      "marketstatus": "latest",
+      "description": "",
+      "id": "3"
+    },
+    {
+      "name": "Pen Drive",
+      "price": 500,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/l3bx5e80/pendrive/o/t/l/-original-imagegvzrmuhzsws.jpeg?q=70",
+      "category": "Electronics",
+      "status": "instock",
+      "marketstatus": "best",
+      "description": "",
+      "id": "4"
+    },
+    {
+      "name": "Mouse",
+      "price": 499,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/kt4ozgw0/mouse/a/d/l/toad-13-portronics-original-imag6jqawv8zhpum.jpeg?q=70",
+      "category": "Electronics",
+      "status": "instock",
+      "marketstatus": "upcomming",
+      "description": "",
+      "id": "5"
+    },
+    {
+      "name": "Gulab Jamun ",
+      "price": 150,
+      "qty": 1,
+      "image": "https://images.meesho.com/images/products/120618258/u3bqg_512.webp",
+      "category": "Grocery",
+      "status": "instock",
+      "marketstatus": "best",
+      "description": "",
+      "id": "6"
+    },
+    {
+      "name": "Phool Makhana",
+      "price": 300,
+      "qty": 1,
+      "image": "https://images.meesho.com/images/products/122289321/osm0q_512.webp",
+      "category": "Grocery",
+      "status": "instock",
+      "marketstatus": "upcomming",
+      "description": "",
+      "id": "7"
+    },
+    {
+      "name": "Green Tea",
+      "price": 150,
+      "qty": 1,
+      "image": "https://images.meesho.com/images/products/111309433/o7x6o_512.webp",
+      "category": "Grocery",
+      "status": "instock",
+      "marketstatus": "best",
+      "description": "",
+      "id": "8"
+    },
+    {
+      "name": "Ketchup",
+      "price": 100,
+      "qty": 1,
+      "image": "https://images.meesho.com/images/products/166371396/rbqp4_512.webp",
+      "category": "Grocery",
+      "status": "instock",
+      "marketstatus": "upcomming",
+      "description": "",
+      "id": "9"
+    },
+    {
+      "name": "Cashews",
+      "price": 250,
+      "qty": 1,
+      "image": "https://images.meesho.com/images/products/290437259/g9avy_512.webp",
+      "category": "Grocery",
+      "status": "instock",
+      "marketstatus": "best",
+      "description": "",
+      "id": "10"
+    },
+    {
+      "name": "Realme 11 Pro 5G ",
+      "price": 25000,
+      "qty": 1,
+      "image": "https://cdn1.smartprix.com/rx-iHqylMYl8-w420-h420/realme-11-pro.webp",
+      "category": "Mobiles",
+      "status": "instock",
+      "marketstatus": "upcomming",
+      "description": "",
+      "id": "11"
+    },
+    {
+      "name": "iPhone 15 Pro Max",
+      "price": 100000,
+      "qty": 1,
+      "image": "https://imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN_a3cdd272-5c4b-495f-9164-961950db035c_823x.jpg?v=1694759717",
+      "category": "Mobiles",
+      "status": "instock",
+      "marketstatus": "best",
+      "description": "",
+      "id": "12"
+    },
+    {
+      "name": "OnePlus 11 5G",
+      "price": 20000,
+      "qty": 1,
+      "image": "https://m.media-amazon.com/images/I/71K84j2O8wL._SX679_.jpg",
+      "category": "Mobiles",
+      "status": "instock",
+      "marketstatus": "trending",
+      "description": "",
+      "id": "13"
+    },
+    {
+      "name": "Redmi Note 12",
+      "price": 10000,
+      "qty": 1,
+      "image": "https://m.media-amazon.com/images/I/71ozxOYao9L._SX679_.jpg",
+      "category": "Mobiles",
+      "status": "instock",
+      "marketstatus": "best",
+      "description": "",
+      "id": "14"
+    },
+    {
+      "name": "Realme narzo 50i Prime",
+      "price": 15000,
+      "qty": 1,
+      "image": "https://m.media-amazon.com/images/I/81WPIz1l5wL._SL1500_.jpg",
+      "category": "Mobiles",
+      "status": "instock",
+      "marketstatus": "upcomming",
+      "description": "",
+      "id": "15"
+    },
+    {
+      "name": "REVOLT RV400",
+      "price": 139950,
+      "qty": 1,
+      "image": "https://www.revoltmotors.com/images/stealth-black-1.png",
+      "category": "Bikes",
+      "status": "instock",
+      "marketstatus": "trending",
+      "description": "",
+      "id": "16"
+    },
+    {
+      "name": "Odysse Evoqis ",
+      "price": 171250,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-bike-scooter/k/o/j/na-portable-charger-evoqis-disc-gujarat-odysse-original-imagqy87sh7gxqxw.jpeg?q=70",
+      "category": "Bikes",
+      "status": "instock",
+      "marketstatus": "latest",
+      "description": "",
+      "id": "17"
+    },
+    {
+      "name": "Keeway V302C",
+      "price": 428700,
+      "qty": 1,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/keeway-v302c-glossy-grey1661846990617.jpg?q=80",
+      "category": "Bikes",
+      "status": "instock",
+      "marketstatus": "best",
+      "description": "",
+      "id": "18"
+    },
+    {
+      "name": "Hero XPulse 200T 4V ",
+      "price": 130200,
+      "qty": 1,
+      "image": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/134183/hero-xpulse-200t-left-side-view0.jpeg?isig=0",
+      "category": "Bikes",
+      "status": "instock",
+      "marketstatus": "trending",
+      "description": "",
+      "id": "19"
+    },
+    {
+      "name": "Bajaj Pulsar NS 200",
+      "price": 180000,
+      "qty": 1,
+      "image": "https://www.bajajautofinance.com/uploads/vehicles/Pulsar-200NS.png",
+      "category": "Bikes",
+      "status": "instock",
+      "marketstatus": "latest",
+      "description": "",
+      "id": "20"
+    },
+    {
+      "name": "T-Shirt",
+      "price": 200,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/t-shirt/7/v/i/m-st-boxhead-navyblue-smartees-original-imagmg9gcwn9bgww.jpeg?q=70",
+      "category": "Fashion",
+      "status": "instock",
+      "marketstatus": "upcomming",
+      "description": "",
+      "id": "21"
+    },
+    {
+      "name": "Shirt",
+      "price": 250,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/i/2/e/m-men-slim-striped-printed-checkered-cut-away-collar-denim-lycra-original-imagkbd2haah63km.jpeg?q=70",
+      "category": "Fashion",
+      "status": "instock",
+      "marketstatus": "best",
+      "description": "",
+      "id": "22"
+    },
+    {
+      "name": "Kurta",
+      "price": 300,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/kurta/2/q/v/m-only-kurta-box-nellist-original-imagnx2hzndvrwcv.jpeg?q=70",
+      "category": "Fashion",
+      "status": "instock",
+      "marketstatus": "trending",
+      "description": "",
+      "id": "23"
+    },
+    {
+      "name": "Blazer",
+      "price": 1000,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/blazer/z/h/d/xs-blazer-coat-men-bazar-original-imagsmmf7jjemkfn.jpeg?q=70",
+      "category": "Fashion",
+      "status": "instock",
+      "marketstatus": "latest",
+      "description": "",
+      "id": "24"
+    },
+    {
+      "name": "Jacket",
+      "price": 400,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jacket/a/h/i/xl-mnt-7025-montrez-original-imag5hb93udpfs4q-bb.jpeg?q=70",
+      "category": "Fashion",
+      "status": "instock",
+      "marketstatus": "trending",
+      "description": "",
+      "id": "25"
+    }
+  ],
+  "carts": [
+    {
+      "name": "Green Tea",
+      "price": 150,
+      "qty": 3,
+      "image": "https://images.meesho.com/images/products/111309433/o7x6o_512.webp",
+      "category": "Grocery",
+      "userId": 1,
+      "id": "10"
+    },
+    {
+      "name": "printer",
+      "price": 10190,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/k4a7c7k0/printer/y/j/z/canon-e3370-original-imafn2wyyxjjvzd6.jpeg?q=70",
+      "category": "Electronics",
+      "userId": 1,
+      "id": "19"
+    },
+    {
+      "name": "Monitors",
+      "price": 2200,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/t/q/r/g24e-20-full-hd-24-2023-66d7gar1in-lenovo-original-imagq53zdnffu2pz.jpeg?q=70",
+      "category": "Electronics",
+      "userId": 2,
+      "data": "2023-12-01T06:02:00.599Z",
+      "id": "20"
+    },
+    {
+      "name": "Pen Drive",
+      "price": 500,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/l3bx5e80/pendrive/o/t/l/-original-imagegvzrmuhzsws.jpeg?q=70",
+      "category": "Electronics",
+      "userId": 2,
+      "data": "2023-12-01T06:18:01.449Z",
+      "id": "21"
+    },
+    {
+      "name": "Pen Drive",
+      "price": 500,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/l3bx5e80/pendrive/o/t/l/-original-imagegvzrmuhzsws.jpeg?q=70",
+      "category": "Electronics",
+      "userId": 2,
+      "data": "2023-12-01T08:23:32.749Z",
+      "id": "22"
+    },
+    {
+      "id": "7f50",
+      "name": "keyboard",
+      "price": 229,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/keyboard/desktop-keyboard/3/c/1/150-hp-original-imaghydff9ttwzex.jpeg?q=70",
+      "category": "Electronics",
+      "userId": "feae",
+      "data": "2024-01-16T06:21:14.481Z"
+    },
+    {
+      "id": "a997",
+      "name": "printer",
+      "price": 10190,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/k4a7c7k0/printer/y/j/z/canon-e3370-original-imafn2wyyxjjvzd6.jpeg?q=70",
+      "category": "Electronics",
+      "userId": "feae",
+      "data": "2024-01-16T06:21:43.071Z"
+    }
+  ]
+}

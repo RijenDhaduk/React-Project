@@ -1,0 +1,93 @@
+<table border="1">
+    <tr>
+        <td>Userid</td>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Password</td>
+        <td>Role</td>
+    </tr>
+
+    <tbody id="record">
+
+    </tbody>
+
+</table>
+
+<script type="text/javascript">
+
+    const viewUser = () => {
+        let chekUser = JSON.parse(localStorage.getItem('checkUserLogin'));
+        let allUser = JSON.parse(localStorage.getItem('register'));
+        if(chekUser.role === "admin"){ 
+            let tbl = "";
+            allUser.map((val)=>{               
+                    tbl += `
+                                <tr>
+                                    <td>${val.userid}</td>
+                                    <td>${val.name}</td>
+                                    <td>${val.email}</td>
+                                    <td>${val.password}</td>`
+
+                                    if(val.role == "admin"){
+                                        tbl +=`     <td>
+                                            <button onclick='adminBtn(${val.userid})' style='background : blue'>Admin</button>
+                                        </td>` 
+                                    }else{
+                                        tbl +=`     <td>
+                                            <button onclick='userBtn(${val.userid})' style='background : yellow'>User</button>
+                                        </td>`
+                                    }
+
+                    tbl += `                
+                                </tr>
+                            `
+                
+                   
+            })
+            document.getElementById('record').innerHTML = tbl;
+    }else{
+        let tbl = "";
+                    tbl += `
+                                <tr>
+                                    <td>${chekUser.userid}</td>
+                                    <td>${chekUser.name}</td>
+                                    <td>${chekUser.email}</td>
+                                    <td>${chekUser.password}</td>
+                                    <td>${chekUser.role}</td>
+                                </tr>
+                            `
+            document.getElementById('record').innerHTML = tbl;
+        }
+    }
+    viewUser();
+    
+
+    const userBtn = (id) => {
+        let allUser = JSON.parse(localStorage.getItem('register')); 
+
+        allUser.filter((val)=>{
+            if(val.userid == id){
+                 val.role = "admin";
+            }
+            return val;
+        });
+        localStorage.setItem('register',JSON.stringify(allUser));
+        alert("Role successfully changed!!");
+        viewUser();
+    }
+
+    const adminBtn = (id) => {
+        let allUser = JSON.parse(localStorage.getItem('register')); 
+        allUser.filter((val)=>{
+            if(val.userid == id){
+                 val.role = "user";
+            }
+            return val;
+        });
+        localStorage.setItem('register',JSON.stringify(allUser));
+        alert("Role successfully changed!!");
+        viewUser();
+    }
+
+</script>
+<script src="./watchman.js" type="text/javascript"></script>
